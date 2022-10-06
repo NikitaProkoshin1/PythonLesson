@@ -9,6 +9,7 @@
 #print(f"{y} -> Cумма элементов на нечётных позициях: {summ}")
 
 #Задача 2
+
 #def mult_lst(lst):
 #    l = len(lst)//2 + 1 if len(lst) % 2 != 0 else len(lst)//2
 #    = = [lst[i]*lst[len(lst)-i-1] for i in range (l)]
@@ -20,6 +21,7 @@
 #mult_lst(lst)
 
 #Задача 3
+
 #n = int(input('Введите значение числа "а": ')) 
 #a = ''
 #while n > 0:
