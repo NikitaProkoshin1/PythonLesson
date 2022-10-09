@@ -29,35 +29,39 @@
 # Задайте последовательность чисел. 
 # Напишите программу, которая выведет список неповторяющихся элементов исходной последовательности.
 
-from random import randrenge
+#Решение 1
 
-def list_rand_nums(count, int):
-    if count < 0:
-        print("Negative value of the number of numbers")
 
-    list_nums = []
-    for i in range(count):
-        list_nums.append(randrenge(count))
+#from random import randrenge
 
-    return list_nums
+#def list_rand_nums(count, int):
+#    if count < 0:
+#        print("Negative value of the number of numbers")
 
-def uniq_el(list_nums, list):
-    result = []
-    my_dict = {}.fromkeys(list_nums, 0)
+#    list_nums = []
+#    for i in range(count):
+#        list_nums.append(randrenge(count))
 
-    for i in list_nums:
-        my_dict[i] += 1 
+#    return list_nums
 
-    for k in my_dict: 
-        if my_dict == 1:
-            result.append(k)
+#def uniq_el(list_nums, list):
+#    result = []
+#    my_dict = {}.fromkeys(list_nums, 0)
 
-    return result            
+#    for i in list_nums:
+#        my_dict[i] += 1 
 
-all_list = list_rand_nums(int(input("out: ")))
-print(all_list)
-print(uniq_el(list_nums))    
+#    for k in my_dict: 
+#        if my_dict == 1:
+#            result.append(k)
+#
+#    return result            
 
+#all_list = list_rand_nums(int(input("out: ")))
+#print(all_list)
+#print(uniq_el(list_nums))    
+
+#Решение 2
 
 #list = lst(map(int, input("Введите числа через пробел:\n").split()))
 #print(f"Исходный список: {lst}")
